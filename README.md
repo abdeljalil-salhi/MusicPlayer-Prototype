@@ -1,5 +1,5 @@
-# Simple Music Player
-Simple mini project using HTML, CSS, and basic JS, to demonstrate the logic of a music player.
+# Music Player Protoype
+Simple prototype using HTML, CSS and basic JS to demonstrate the logic of a music player.
 
 Update the **audio_list** variable in **line 27** to change the playlist, use online links to mp3 files, or host yours in the **/media** folder.
 
