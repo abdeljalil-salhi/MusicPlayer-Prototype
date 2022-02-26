@@ -26,8 +26,8 @@ let audio = document.createElement("audio");
 // bon now this is kinda advanced but imma explain it to u
 let audio_list = [
   {
-    title: "CHIKITA",
-    artist: "Abba",
+    title: "Fugue No.8 in E Major",
+    artist: "Johann Sebastian Bach",
     src: "https://sounds.pond5.com/solfeggietto-c-p-e-bach-music-165421467_nw_prev.m4a",
   },
   {
@@ -36,9 +36,9 @@ let audio_list = [
     src: "media/parizien.m4a",
   },
   {
-    title: "the winner",
-    artist: "safae eawtani",
-    src: "media/the_winner.mp3",
+    title: "Fugue No.2 In C Minor",
+    artist: "Johann Sebastian Bach",
+    src: "https://sounds.pond5.com/johann-sebastian-bach-fugue-no2-music-133074087_nw_prev.m4a",
   },
 ];
 
