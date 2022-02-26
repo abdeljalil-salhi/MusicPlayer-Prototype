@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ela slamto</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="details">
+      <h1 class="title">song blablabla</h1>
+      <h3 class="artist">ana hh</h3>
+      <div class="buttons">
+        <div class="previous" onclick="prevSong()">
+          <i class="uil uil-previous"></i>
+        </div>
+        <div class="backward" onclick="backwardSong()">
+          <i class="uil uil-backward"></i>
+        </div>
+        <div class="play" onclick="playOrPauseSong()">
+          <i class="uil uil-play-circle"></i>
+        </div>
+        <div class="forward" onclick="forwardSong()">
+          <i class="uil uil-forward"></i>
+        </div>
+        <div class="next" onclick="nextSong()">
+          <i class="uil uil-step-forward"></i>
+        </div>
+      </div>
+      <div class="timer">
+        <div class="current_time">00:00</div>
+        <input
+          type="range"
+          min="1"
+          max="100"
+          value="0"
+          class="range"
+          onchange="changeTimer()"
+        />
+        <div class="total_time">00:00</div>
+      </div>
+      <div class="volume">
+        <i class="uil uil-volume-down" id="volume" onclick="muteOrUnmute()"></i>
+        <input
+          type="range"
+          min="1"
+          max="100"
+          value="100"
+          class="_volume"
+          onchange="changeVolume()"
+        />
+        <i class="uil uil-volume" onclick="muteOrUnmute()"></i>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
